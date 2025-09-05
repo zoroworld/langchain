@@ -37,3 +37,6 @@ hf_xet
 
 # transformer
 sentence-transformers
+
+# langchain community
+langchain_community
