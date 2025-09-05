@@ -16,4 +16,6 @@ prompt = template.invoke(
     }
 )
 
-print(prompt)
+# Print messages one by one
+for msg in prompt.messages:
+    print(f"{msg.type.upper()}: {msg.content}")
