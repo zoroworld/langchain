@@ -2,7 +2,7 @@ from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 import os
 
 # Correct way to set environment variable
-os.environ['HF_HOME'] = 'E:/projects/huggingface_cache'
+os.environ['HF_HOME'] = '/home/manishpc/Desktop/langchain/huggingface_cache/'
 
 llm = HuggingFacePipeline.from_model_id(
     model_id='TinyLlama/TinyLlama-1.1B-Chat-v1.0',
